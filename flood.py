@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Code by LeeOn123
+#Code by chinnikrishna007
 import argparse
 import random
 import socket
@@ -13,7 +13,7 @@ ap.add_argument("-t", "--times", type=int, default=50000, help="Packets per one 
 ap.add_argument("-th", "--threads", type=int, default=5, help="Threads")
 args = vars(ap.parse_args())
 
-print("--> C0de By Lee0n123 <--")
+print("--> C0de By ChinniKrishna007 <--")
 print("#-- TCP/UDP FLOOD --#")
 ip = args['ip']
 port = args['port']
